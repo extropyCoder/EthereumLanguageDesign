@@ -1,3 +1,4 @@
-# SolidityVerifier
-An Attempt to prove the correctness of Solidity code, or if that proves too difficult maybe Haskell
-
+# Language Tools
+Wrapper project for
+-formal methods tools
+- compiler for a functional language 
