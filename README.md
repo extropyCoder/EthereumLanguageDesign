@@ -1,4 +1,4 @@
-# Language Tools
+# Ethereum Language Design
 Wrapper project for
 
 - best practices for Solidity
