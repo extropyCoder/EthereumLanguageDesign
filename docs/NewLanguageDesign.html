@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Language Design</title>
+</head>
+<body>
+
+<h1>Notes on a new language design</h1>
+
+<h3>Resources</h3>
+<ul>
+<li> <a href="http://spw15.langsec.org/papers/couprie-nom.pdf"> Parser in Rust </a></li>
+<li><a href="http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf">An Incremental Approach to Compiler Construction</a> </li>
+<li><a href="http://www.diku.dk/~torbenm/Basics/">Basics of Compiler Design</a></li>
+<li><a href="http://www.cs.man.ac.uk/~pjj/farrell/compmain.html">Compiler Basics</a></li>
+<li><a href="http://rads.stackoverflow.com/amzn/click/0201403536">Compiler Construction</a> </li>
+</ul>
+
+<h3>Compiler Phases</h3>
+<p>
+Structures - Symbol Table, Syntax Tree,Intermediate Representation
+Other parts - preprocessors, assemblers,loaders and link editors
+Language = syntax + semantics.
+To specify syntax - CFG or BNF, for semantics - more difficult - informal description
+</p>
+<h3>Context Free Grammars</h3>
+4 Components :
+<ul>
+<li>set of non terminals</li>
+<li>set of tokens - terminal symbols</li>
+<li>set of productions</li>
+<li>a designation of one of the non terminals as the start symbol.</li>
+</ul>
